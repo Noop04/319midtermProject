@@ -1,13 +1,12 @@
 {
     "artists": [
         {
-        "name": "Lil Wayne",
-        "style": "rap",
-        "desc": "Dwayne Michael Carter Jr. (born September 27, 1982), known professionally as Lil Wayne, is an American rapper. He is regarded as one of the most influential hip hop artists of his generation, and widely considered one of the greatest rappers of all time. Born and raised in New Orleans, he was discovered by hometown rapper Birdman in 1993 and signed with the latter's record label, Cash Money Records, at age eleven. He emerged as the flagship artist of the label in the following years until his departure in June 2018.",
-        "listeners": "37,149,277",
-        "url": "https://i1.sndcdn.com/avatars-LqjEhTHcTW1LucsO-bgSGDQ-t240x240.jpg"
+            "name": "Lil Wayne",
+            "style": "rap",
+            "desc": "Dwayne Michael Carter Jr. (born September 27, 1982), known professionally as Lil Wayne, is an American rapper. He is regarded as one of the most influential hip hop artists of his generation, and widely considered one of the greatest rappers of all time. Born and raised in New Orleans, he was discovered by hometown rapper Birdman in 1993 and signed with the latter's record label, Cash Money Records, at age eleven. He emerged as the flagship artist of the label in the following years until his departure in June 2018.",
+            "listeners": "37,149,277",
+            "url": "https://i1.sndcdn.com/avatars-LqjEhTHcTW1LucsO-bgSGDQ-t240x240.jpg"
         },
-
         {
             "name": "Kanye West",
             "style": "rap",
@@ -15,7 +14,6 @@
             "listeners": "67,749,004",
             "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Kanye_West_at_the_2009_Tribeca_Film_Festival_%28crop_2%29.jpg/1200px-Kanye_West_at_the_2009_Tribeca_Film_Festival_%28crop_2%29.jpg"
         },
-
         {
             "name": "Lil Uzi Vert",
             "style": "rap",
@@ -23,23 +21,15 @@
             "listeners": "31,810,510",
             "url": "https://ygo-assets-entities-emea.yougov.net/ddfaf0b4-33ca-11e7-a0ff-3577f93b29b0.jpg?zcw=630&zch=630&zct=93&zcl=0&ph=264"
         }
-
-
-
-        
     ],
-
-
-
-    "songs" : [
+    "songs": [
         {
-        "name": "MegaMan",
-        "artist": "Lil Wayne",
-        "album": "The Carter IV",
-        "streams": "58,922,519", 
-        "url": "https://i.scdn.co/image/ab67616d0000b273e80b258c7e0b318202870953"
+            "name": "MegaMan",
+            "artist": "Lil Wayne",
+            "album": "The Carter IV",
+            "streams": "58,922,519",
+            "url": "https://i.scdn.co/image/ab67616d0000b273e80b258c7e0b318202870953"
         },
-
         {
             "name": "Nightmare of the Bottom",
             "artist": "Lil Wayne",
@@ -47,38 +37,69 @@
             "streams": "45,740,277",
             "url": "https://i.scdn.co/image/ab67616d0000b273e80b258c7e0b318202870953"
         },
-        
-        
         {
             "name": "6 foot 7 foot",
-            "artist":"Lil Wayne",
-            "album":"The Carter IV",
+            "artist": "Lil Wayne",
+            "album": "The Carter IV",
             "streams": "524,434,328",
             "url": "https://i.scdn.co/image/ab67616d0000b273e80b258c7e0b318202870953"
-
         },
-
+        {
+            "name": "She Will",
+            "artist": "Lil Wayne",
+            "album": "Tha Carter IV",
+            "streams": "263,140,757",
+            "url": "https://i.scdn.co/image/ab67616d0000b273e80b258c7e0b318202870953"
+        },
+        {
+            "name": "Flashing Lights",
+            "artist": "Kanye West",
+            "album": "Graduation",
+            "streams": "1,180,832,502",
+            "url": "https://i.scdn.co/image/ab67616d0000b273675561f3defd1d5a551936a8"
+        },
+        {
+            "name": "Good Life",
+            "artist": "Kanye West",
+            "album": "Graduation",
+            "streams": "465,493,679",
+            "url": "https://i.scdn.co/image/ab67616d0000b273675561f3defd1d5a551936a8"
+        },
+        {
+            "name": "Last Call",
+            "artist": "Kanye West",
+            "album": "The College Dropout",
+            "streams": "52,041,280",
+            "url": "https://i.scdn.co/image/ab67616d0000b27325b055377757b3cdd6f26b78"
+        },
         {
             "name": "Devil In A New Dress",
             "artist": "Kanye West",
             "album": "My Beutiful Dark Twisted Fantasy",
             "streams": "496,692,164",
-            "url": ""
+            "url": "https://i.scdn.co/image/ab67616d0000b273d9194aa18fa4c9362b47464f"
         },
-
         {
             "name": "Heartless",
-            "artist":"Kanye West",
+            "artist": "Kanye West",
             "album": "808s & Heartbreak",
             "streams": "1,449,999,579",
-            "url": ""
+            "url": "https://i.scdn.co/image/ab67616d0000b273346d77e155d854735410ed18"
+        },
+        {
+            "name": "20 Min",
+            "artist": "Lil Uzi Vert",
+            "album": "Luv Is Rage 2 (Deluxe)",
+            "streams": "1,101,356,997",
+            "url": "https://i.scdn.co/image/ab67616d0000b2730d5a84e4e47399d2726c330c"
         },
 
         {
-
+            "name": "Sanguine Paradise",
+            "artist": "Lil Uzi Vert",
+            "album": "Sanguine Paradise",
+            "streams": "489,491,717",
+            "url": "https://i.scdn.co/image/ab67616d00001e0234bf16d92ae11f8d3eadf295"
         }
-
-
-
     ]
 }
