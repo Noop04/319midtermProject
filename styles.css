@@ -1,43 +1,53 @@
-  /* Navbar container */
-  .navbar {
-    display: flex;
-    justify-content: space-around;
-    background-color: #212020;
-    padding: 20px;
-    border-radius: 10px;
-
-    
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #191919;
+  border-color: #056706;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #056706;
 }
 /* Navbar links */
 .navbar a {
-    color: #f2f2f2;
-    text-align: center;
-    padding: 10px;
-    text-decoration: none;
-
-
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
 }
 /* Change color on hover */
 .navbar a:hover {
-    background-color: #b5b9b5;
-    color: black;
-    border-radius: 10px;
-
+  background-color: #067908;
+  color: black;
+  border-radius: 10px;
 }
 
 .title-section {
-    background-color: #056706;
-    text-align: center;
-    padding: 10px;
-    font-size: 40px;
-    font-weight: bold;
-    border-bottom: 2px solid black;
-    border-radius: 10px;
-
+  background-color: #056706;
+  text-align: center;
+  padding: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+  border-radius: 10px;
 }
 
 body {
-    background-color: #191919 ;
-    color: white;
+  background-color: #191919;
+  color: white;
+}
+.custom-btn {
+  background-color: #056706; /* Change button color */
+  min-width: 150px;
+  min-height: 150px;
+  color: white; /* Change text color */
+  padding: 150px 300px; /* Increase size */
+  font-size: 1.5rem;
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Add some border radius */
 }
 
+.custom-btn:hover {
+  background-color: #045e06; /* Darker shade on hover */
+  color: white; /* Ensure text color remains white on hover */
+}

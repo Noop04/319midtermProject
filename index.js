@@ -1,9 +1,72 @@
+function showGenre(genre) {
+    fetch("./data.json")
+        .then(response => response.json())
+        .then(myArtists => loadArtists(myArtists, genre))
+        .catch(err => console.log("Error :" + err));
+}
 
-function appendData(data) {
+function loadArtists(myArtists, genre) {
+    // ---------------------
+    // make array of objects
+    // ---------------------
+    const arrayArtists = [];
+
+    for (let i = 0; i < myArtists.artists.length; i++) {
+        arrayArtists.push(myArtists.artists[i]);
+    }
+
+    console.log(arrayArtists);
+
+    // ---------------------
+    // sort array
+    // ---------------------
+    let sortedArtists = [];
+
+    // Filter the array of artists by the given genre
+    console.log(genre);
+    sortedArtists = arrayArtists.filter(artist => artist.style === genre);
+
+    // If no artists match the genre, return a message
+    if (sortedArtists.length === 0) {
+        console.log(`No artists found for ${genre}`);
+    }
+
+    // ---------------------
+    // Construct the CARD
+    // ---------------------
+    var CardArtists = document.getElementById("col");
+    // Clear previous artists data
+    CardArtists.innerHTML = ""; // This will clear the previous artists data and image
+
+    for (var i = 0; i < sortedArtists.length; i++) {
+        let name = sortedArtists[i].name;
+        let style = sortedArtists[i].style;
+        let desc = sortedArtists[i].desc;
+        let listeners = sortedArtists[i].listeners;
+        let url = sortedArtists[i].url;
+        let AddCardArtists = document.createElement("div");
+
+        AddCardArtists.classList.add("col"); // Add Bootstrap class to the column
+        AddCardArtists.innerHTML = `
+        <div class="card shadow-sm">
+            <img src=${url} class="card-img-top" alt="..."></img>
+            <div class="card-body">
+                <p class="card-text"> <strong>${name}</strong><p>
+                <p>${desc}<p>
+                <p>${listeners} monthly listeners</p>
+            </div>
+        </div>
+        `;
+        CardArtists.appendChild(AddCardArtists);
+    } // end of for
+} // end of function appendData
+
+
+/* function appendData(data) {
     var CardArtist = document.getElementById("col");
     const m = document.getElementById("artists");
     const inputArtistName = m.value
-    CardArtist.innerHTML = ""; // This will clear the previous movie data and image
+    CardArtist.innerHTML = ""; // This will clear the previous artists data and image
     for (let i = 0; i < Object.keys(data.artists).length; i++) {
         if (data.artists[i].name === inputArtistName) {
             let name = data.artists[i].name;
@@ -64,8 +127,8 @@ function loadArtists(myArtists, option, style) {
     let arrayArtists = [];
     let sortedArtists = [];
 
-    for (let i = 0; i < myArtists.movies.length; i++) {
-        arrayArtists.push(myArtists.movies[i])
+    for (let i = 0; i < myArtists.artists.length; i++) {
+        arrayArtists.push(myArtists.artists[i])
     }
 
     if (option === 1) {
@@ -85,9 +148,9 @@ function loadArtists(myArtists, option, style) {
     else if (option === 3) {  
         const inputDescription = document.getElementById("descriptionInput").value;
         document.getElementById('inputField').style.display = 'none';
-        for (let movie of arrayArtists) {
-            if (movie.description.includes(inputDescription)) {
-                sortedArtists.push(movie);
+        for (let artists of arrayArtists) {
+            if (artists.description.includes(inputDescription)) {
+                sortedArtists.push(artists);
             }
         }
         console.log(sortedArtists);
@@ -95,8 +158,8 @@ function loadArtists(myArtists, option, style) {
 
 
 
-    var CardMovie = document.getElementById("col");
-    CardMovie.innerHTML = "";
+    var CardArtists = document.getElementById("col");
+    CardArtists.innerHTML = "";
 
 
     for (let i = 0; i < sortedArtists.length; i++) {
@@ -105,9 +168,9 @@ function loadArtists(myArtists, option, style) {
         let url = sortedArtists[i].url;
 
         let description = sortedArtists[i].description
-        let AddCardMovie = document.createElement("div");
-        AddCardMovie.classList.add("col");
-        AddCardMovie.innerHTML = `
+        let AddCardArtists = document.createElement("div");
+        AddCardArtists.classList.add("col");
+        AddCardArtists.innerHTML = `
             <div class="card shadow-sm">
                 <img src=${url} class="card-img-top" alt="..."></img>
                 <div class="card-body">
@@ -115,7 +178,7 @@ function loadArtists(myArtists, option, style) {
                 </div>
             </div>
         `;
-        CardMovie.appendChild(AddCardMovie);
+        CardArtists.appendChild(AddCardArtists);
     }
 }
 
@@ -139,4 +202,4 @@ function loadArtists(myArtists, option, style) {
 
 
 
-fetchData();
+fetchData(); */

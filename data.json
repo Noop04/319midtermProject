@@ -1,105 +1,293 @@
 {
-    "artists": [
-        {
-            "name": "Lil Wayne",
-            "style": "rap",
-            "desc": "Dwayne Michael Carter Jr. (born September 27, 1982), known professionally as Lil Wayne, is an American rapper. He is regarded as one of the most influential hip hop artists of his generation, and widely considered one of the greatest rappers of all time. Born and raised in New Orleans, he was discovered by hometown rapper Birdman in 1993 and signed with the latter's record label, Cash Money Records, at age eleven. He emerged as the flagship artist of the label in the following years until his departure in June 2018.",
-            "listeners": "37,149,277",
-            "url": "https://i1.sndcdn.com/avatars-LqjEhTHcTW1LucsO-bgSGDQ-t240x240.jpg"
-        },
-        {
-            "name": "Kanye West",
-            "style": "rap",
-            "desc": "Kanye Omari West is an American rapper, record producer, singer, songwriter, and fashion designer. One of the most prominent figures in hip hop, he is known for his varying musical style and polarizing cultural and political commentary.",
-            "listeners": "67,749,004",
-            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Kanye_West_at_the_2009_Tribeca_Film_Festival_%28crop_2%29.jpg/1200px-Kanye_West_at_the_2009_Tribeca_Film_Festival_%28crop_2%29.jpg"
-        },
-        {
-            "name": "Lil Uzi Vert",
-            "style": "rap",
-            "desc": "Symere Bysil Woods (sy-MEER; born July 31, 1995), known professionally as Lil Uzi Vert, is an American rapper, singer, and songwriter. Born and raised in Philadelphia, Pennsylvania, they[a] gained initial recognition following the release of the commercial mixtape Luv Is Rage (2015), which led to a recording contract with Atlantic Records, to whom they signed under DJ Drama's Generation Now imprint.",
-            "listeners": "31,810,510",
-            "url": "https://ygo-assets-entities-emea.yougov.net/ddfaf0b4-33ca-11e7-a0ff-3577f93b29b0.jpg?zcw=630&zch=630&zct=93&zcl=0&ph=264"
-        }
-    ],
-    "songs": [
-        {
-            "name": "MegaMan",
-            "artist": "Lil Wayne",
-            "album": "The Carter IV",
-            "streams": "58,922,519",
-            "url": "https://i.scdn.co/image/ab67616d0000b273e80b258c7e0b318202870953"
-        },
-        {
-            "name": "Nightmare of the Bottom",
-            "artist": "Lil Wayne",
-            "album": "The Carter IV",
-            "streams": "45,740,277",
-            "url": "https://i.scdn.co/image/ab67616d0000b273e80b258c7e0b318202870953"
-        },
-        {
-            "name": "6 foot 7 foot",
-            "artist": "Lil Wayne",
-            "album": "The Carter IV",
-            "streams": "524,434,328",
-            "url": "https://i.scdn.co/image/ab67616d0000b273e80b258c7e0b318202870953"
-        },
-        {
-            "name": "She Will",
-            "artist": "Lil Wayne",
-            "album": "Tha Carter IV",
-            "streams": "263,140,757",
-            "url": "https://i.scdn.co/image/ab67616d0000b273e80b258c7e0b318202870953"
-        },
-        {
-            "name": "Flashing Lights",
-            "artist": "Kanye West",
-            "album": "Graduation",
-            "streams": "1,180,832,502",
-            "url": "https://i.scdn.co/image/ab67616d0000b273675561f3defd1d5a551936a8"
-        },
-        {
-            "name": "Good Life",
-            "artist": "Kanye West",
-            "album": "Graduation",
-            "streams": "465,493,679",
-            "url": "https://i.scdn.co/image/ab67616d0000b273675561f3defd1d5a551936a8"
-        },
-        {
-            "name": "Last Call",
-            "artist": "Kanye West",
-            "album": "The College Dropout",
-            "streams": "52,041,280",
-            "url": "https://i.scdn.co/image/ab67616d0000b27325b055377757b3cdd6f26b78"
-        },
-        {
-            "name": "Devil In A New Dress",
-            "artist": "Kanye West",
-            "album": "My Beutiful Dark Twisted Fantasy",
-            "streams": "496,692,164",
-            "url": "https://i.scdn.co/image/ab67616d0000b273d9194aa18fa4c9362b47464f"
-        },
-        {
-            "name": "Heartless",
-            "artist": "Kanye West",
-            "album": "808s & Heartbreak",
-            "streams": "1,449,999,579",
-            "url": "https://i.scdn.co/image/ab67616d0000b273346d77e155d854735410ed18"
-        },
-        {
-            "name": "20 Min",
-            "artist": "Lil Uzi Vert",
-            "album": "Luv Is Rage 2 (Deluxe)",
-            "streams": "1,101,356,997",
-            "url": "https://i.scdn.co/image/ab67616d0000b2730d5a84e4e47399d2726c330c"
-        },
-
-        {
-            "name": "Sanguine Paradise",
-            "artist": "Lil Uzi Vert",
-            "album": "Sanguine Paradise",
-            "streams": "489,491,717",
-            "url": "https://i.scdn.co/image/ab67616d00001e0234bf16d92ae11f8d3eadf295"
-        }
-    ]
+  "artists": [
+    {
+      "name": "Lil Wayne",
+      "style": "rap",
+      "desc": "Dwayne Michael Carter Jr. (born September 27, 1982), known professionally as Lil Wayne, is an American rapper. He is regarded as one of the most influential hip hop artists of his generation, and widely considered one of the greatest rappers of all time. Born and raised in New Orleans, he was discovered by hometown rapper Birdman in 1993 and signed with the latter's record label, Cash Money Records, at age eleven. He emerged as the flagship artist of the label in the following years until his departure in June 2018.",
+      "listeners": "37,149,277",
+      "url": "https://i.scdn.co/image/ab67616100005174c1c08e541eae3cc82c6988c4"
+    },
+    {
+      "name": "Kanye West",
+      "style": "rap",
+      "desc": "Kanye Omari West is an American rapper, record producer, singer, songwriter, and fashion designer. One of the most prominent figures in hip hop, he is known for his varying musical style and polarizing cultural and political commentary.",
+      "listeners": "67,749,004",
+      "url": "https://i.scdn.co/image/ab676161000051746e835a500e791bf9c27a422a"
+    },
+    {
+      "name": "Lil Uzi Vert",
+      "style": "rap",
+      "desc": "Symere Bysil Woods (sy-MEER; born July 31, 1995), known professionally as Lil Uzi Vert, is an American rapper, singer, and songwriter. Born and raised in Philadelphia, Pennsylvania, they[a] gained initial recognition following the release of the commercial mixtape Luv Is Rage (2015), which led to a recording contract with Atlantic Records, to whom they signed under DJ Drama's Generation Now imprint.",
+      "listeners": "31,810,510",
+      "url": "https://i.scdn.co/image/ab676161000051741234d2f516796badbdf16a89"
+    },
+    {
+      "name": "Luke Combs",
+      "style": "country",
+      "desc": "Luke Albert Combs is an American country music singer and songwriter. He has released four albums for Columbia Nashville, all of which have produced multiple chart-topping hits. Known for his powerful voice and down-to-earth lyrics, Combs has become one of the most successful country artists of his generation.",
+      "listeners": "28,355,231",
+      "url": "https://i.scdn.co/image/ab67616100005174bd634295d99c61823c517c3f"
+    },
+    {
+      "name": "Chris Stapleton",
+      "style": "country",
+      "desc": "Christopher Alvin Stapleton is an American singer-songwriter, guitarist, and record producer. Stapleton's music styles include country, Southern rock, and bluegrass. He is widely known for his gritty, soulful vocals and has won numerous awards for his music.",
+      "listeners": "22,539,679",
+      "url": "https://i.scdn.co/image/ab67616100005174a0c87c8f329b436eac8b9784"
+    },
+    {
+      "name": "Carrie Underwood",
+      "style": "country",
+      "desc": "Carrie Marie Underwood is an American country singer. She rose to fame after winning the fourth season of American Idol in 2005. Underwood is known for her powerhouse vocals and has won numerous awards, becoming one of the top-selling artists in the country genre.",
+      "listeners": "11,143,641",
+      "url": "https://i.scdn.co/image/ab676161000051746d81a16f9d1b2abf04e765a6"
+    },
+    {
+      "name": "Taylor Swift",
+      "style": "pop",
+      "desc": "Taylor Alison Swift is an American singer-songwriter and one of the best-selling musicians of all time. Originally a country artist, Swift transitioned to pop music with her album '1989'. Known for her narrative songwriting, she has amassed numerous awards and a global fan base.",
+      "listeners": "92,383,697",
+      "url": "https://i.scdn.co/image/ab67616100005174e672b5f553298dcdccb0e676"
+    },
+    {
+      "name": "Ariana Grande",
+      "style": "pop",
+      "desc": "Ariana Grande-Butera is an American singer, songwriter, and actress. Grande is known for her wide vocal range, often compared to Mariah Carey. She has earned a massive global following and is one of the most influential figures in modern pop music.",
+      "listeners": "81,183,447",
+      "url": "https://i.scdn.co/image/ab6761610000517440b5c07ab77b6b1a9075fdc0"
+    },
+    {
+      "name": "Ed Sheeran",
+      "style": "pop",
+      "desc": "Edward Christopher Sheeran is an English singer-songwriter and one of the best-selling music artists in the world. Known for his soulful ballads and acoustic style, Sheeran has produced numerous chart-topping hits.",
+      "listeners": "76,045,999",
+      "url": "https://i.scdn.co/image/ab67616100005174784daff754ecfe0464ddbeb9"
+    },
+    {
+      "name": "The Beatles",
+      "style": "rock",
+      "desc": "The Beatles were an English rock band formed in Liverpool in 1960. With members John Lennon, Paul McCartney, George Harrison, and Ringo Starr, they are regarded as the most influential band of all time, revolutionizing popular music with their innovative compositions.",
+      "listeners": "36,246,687",
+      "url": "https://i.scdn.co/image/ab67616100005174e9348cc01ff5d55971b22433"
+    },
+    {
+      "name": "Queen",
+      "style": "rock",
+      "desc": "Queen is a British rock band formed in London in 1970. Their classic lineup was Freddie Mercury, Brian May, Roger Taylor, and John Deacon. They are known for their eclectic music style, operatic live performances, and hits like 'Bohemian Rhapsody'.",
+      "listeners": "52,669,638",
+      "url": "https://i.scdn.co/image/c06971e9ff81696699b829484e3be165f4e64368"
+    },
+    {
+      "name": "Led Zeppelin",
+      "style": "rock",
+      "desc": "Led Zeppelin was an English rock band formed in London in 1968. The group's heavy, guitar-driven sound has led them to be recognized as one of the pioneers of hard rock and heavy metal.",
+      "listeners": "17,372,424",
+      "url": "https://i.scdn.co/image/b0248a44865493e6a03832aa89854ada16ff07a8"
+    }
+  ],
+  "songs": [
+    {
+      "name": "MegaMan",
+      "artist": "Lil Wayne",
+      "album": "The Carter IV",
+      "streams": "58,922,519",
+      "url": "https://i.scdn.co/image/ab67616d0000b273e80b258c7e0b318202870953"
+    },
+    {
+      "name": "Nightmare of the Bottom",
+      "artist": "Lil Wayne",
+      "album": "The Carter IV",
+      "streams": "45,740,277",
+      "url": "https://i.scdn.co/image/ab67616d0000b273e80b258c7e0b318202870953"
+    },
+    {
+      "name": "6 foot 7 foot",
+      "artist": "Lil Wayne",
+      "album": "The Carter IV",
+      "streams": "524,434,328",
+      "url": "https://i.scdn.co/image/ab67616d0000b273e80b258c7e0b318202870953"
+    },
+    {
+      "name": "She Will",
+      "artist": "Lil Wayne",
+      "album": "Tha Carter IV",
+      "streams": "263,140,757",
+      "url": "https://i.scdn.co/image/ab67616d0000b273e80b258c7e0b318202870953"
+    },
+    {
+      "name": "Flashing Lights",
+      "artist": "Kanye West",
+      "album": "Graduation",
+      "streams": "1,180,832,502",
+      "url": "https://i.scdn.co/image/ab67616d0000b273675561f3defd1d5a551936a8"
+    },
+    {
+      "name": "Good Life",
+      "artist": "Kanye West",
+      "album": "Graduation",
+      "streams": "465,493,679",
+      "url": "https://i.scdn.co/image/ab67616d0000b273675561f3defd1d5a551936a8"
+    },
+    {
+      "name": "Last Call",
+      "artist": "Kanye West",
+      "album": "The College Dropout",
+      "streams": "52,041,280",
+      "url": "https://i.scdn.co/image/ab67616d0000b27325b055377757b3cdd6f26b78"
+    },
+    {
+      "name": "Devil In A New Dress",
+      "artist": "Kanye West",
+      "album": "My Beutiful Dark Twisted Fantasy",
+      "streams": "496,692,164",
+      "url": "https://i.scdn.co/image/ab67616d0000b273d9194aa18fa4c9362b47464f"
+    },
+    {
+      "name": "Heartless",
+      "artist": "Kanye West",
+      "album": "808s & Heartbreak",
+      "streams": "1,449,999,579",
+      "url": "https://i.scdn.co/image/ab67616d0000b273346d77e155d854735410ed18"
+    },
+    {
+      "name": "20 Min",
+      "artist": "Lil Uzi Vert",
+      "album": "Luv Is Rage 2 (Deluxe)",
+      "streams": "1,101,356,997",
+      "url": "https://i.scdn.co/image/ab67616d0000b2730d5a84e4e47399d2726c330c"
+    },
+    {
+      "name": "Sanguine Paradise",
+      "artist": "Lil Uzi Vert",
+      "album": "Sanguine Paradise",
+      "streams": "489,491,717",
+      "url": "https://i.scdn.co/image/ab67616d00001e0234bf16d92ae11f8d3eadf295"
+    },
+    {
+      "name": "Beautiful Crazy",
+      "artist": "Luke Combs",
+      "album": "This One's for You Too (Deluxe Edition)",
+      "streams": "917,473,684",
+      "url": "https://i.scdn.co/image/ab67616d0000b273ccba76fad1c624c09e72bc78"
+    },
+    {
+      "name": "Beer Never Broke My Heart",
+      "artist": "Luke Combs",
+      "album": "What You See Is What You Get",
+      "streams": "626,416,072",
+      "url": "https://i.scdn.co/image/ab67616d0000b273429d8ec28f865acf2a927c2d"
+    },
+    {
+      "name": "Tennessee Whiskey",
+      "artist": "Chris Stapleton",
+      "album": "Traveller",
+      "streams": "1,051,932,385",
+      "url": "https://i.scdn.co/image/ab67616d0000b273540fc1d083eac5bcff8dad21"
+    },
+    {
+      "name": "Parachute",
+      "artist": "Chris Stapleton",
+      "album": "Traveller",
+      "streams": "345,232,076",
+      "url": "https://i.scdn.co/image/ab67616d0000b273540fc1d083eac5bcff8dad21"
+    },
+    {
+      "name": "Before He Cheats",
+      "artist": "Carrie Underwood",
+      "album": "Some Hearts",
+      "streams": "650,357,649",
+      "url": "https://i.scdn.co/image/ab67616d0000b273724bd326692d222c5906b0b0"
+    },
+    {
+      "name": "Blown Away",
+      "artist": "Carrie Underwood",
+      "album": "Blown Away",
+      "streams": "149,612,146",
+      "url": "https://i.scdn.co/image/ab67616d0000b27324e1589fb3eab8ae8831f388"
+    },
+    {
+      "name": "Blank Space",
+      "artist": "Taylor Swift",
+      "album": "1989",
+      "streams": "1,926,989,289",
+      "url": "https://i.scdn.co/image/ab67616d0000b2739abdf14e6058bd3903686148"
+    },
+    {
+      "name": "Shake It Off",
+      "artist": "Taylor Swift",
+      "album": "1989",
+      "streams": "1,495,266,155",
+      "url": "https://i.scdn.co/image/ab67616d0000b2739abdf14e6058bd3903686148"
+    },
+    {
+      "name": "7 rings",
+      "artist": "Ariana Grande",
+      "album": "thank u, next",
+      "streams": "2,359,773,994",
+      "url": "https://i.scdn.co/image/ab67616d0000b27356ac7b86e090f307e218e9c8"
+    },
+    {
+      "name": "Positions",
+      "artist": "Ariana Grande",
+      "album": "Positions",
+      "streams": "1,495,635,341",
+      "url": "https://i.scdn.co/image/ab67616d0000b2735ef878a782c987d38d82b605"
+    },
+    {
+      "name": "Shape of You",
+      "artist": "Ed Sheeran",
+      "album": "÷ (Deluxe)",
+      "streams": "4,053,463,050",
+      "url": "https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96"
+    },
+    {
+      "name": "Perfect",
+      "artist": "Ed Sheeran",
+      "album": "÷ (Deluxe)",
+      "streams": "3,126,660,423",
+      "url": "https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96"
+    },
+    {
+      "name": "Blackbird",
+      "artist": "The Beatles",
+      "album": "The Beatles",
+      "streams": "506,441,739",
+      "url": "https://i.scdn.co/image/ab67616d0000b2734ce8b4e42588bf18182a1ad2"
+    },
+    {
+      "name": "Come Together",
+      "artist": "The Beatles",
+      "album": "Abbey Road",
+      "streams": "778,107,476",
+      "url": "https://i.scdn.co/image/ab67616d0000b273dc30583ba717007b00cceb25"
+    },
+    {
+      "name": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "album": "A Night at the Opera",
+      "streams": "2,606,355,258",
+      "url": "https://i.scdn.co/image/ab67616d0000b2733025a441495664948b809537"
+    },
+    {
+      "name": "Another One Bites the Dust",
+      "artist": "Queen",
+      "album": "The Game",
+      "streams": "1,991,465,463",
+      "url": "https://i.scdn.co/image/ab67616d0000b273cbb67d806b0ca54b3d474e03"
+    },
+    {
+      "name": "Stairway to Heaven",
+      "artist": "Led Zeppelin",
+      "album": "Led Zeppelin IV",
+      "streams": "1,026,644,001",
+      "url": "https://i.scdn.co/image/ab67616d0000b2734509204d0860cc0cc67e83dc"
+    },
+    {
+      "name": "Whole Lotta Love",
+      "artist": "Led Zeppelin",
+      "album": "Led Zeppelin II",
+      "streams": "638,655,882",
+      "url": "https://i.scdn.co/image/ab67616d0000b273f396ea414b735ef23e2ed1a9"
+    }
+  ]
 }
