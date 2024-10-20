@@ -31,6 +31,10 @@ function loadArtists(myArtists, genre) {
         console.log(`No artists found for ${genre}`);
     }
 
+    // Add Genre Text
+    var GenreTitle = document.getElementById("genre-title");
+    GenreTitle.innerHTML = genre.toUpperCase();
+
     // ---------------------
     // Construct the CARD
     // ---------------------

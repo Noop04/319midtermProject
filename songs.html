@@ -45,7 +45,34 @@
             </div>
         </div>
     </nav>
-    <p>Welcome to songs page</p>
+    <h1>View popular artists!</h1>
+    <h1>Try out different genres!</h1>
+
+    <!-- Genre Buttons -->
+    <div class="artist-buttons text-center">
+        <button class="custom-btn" onclick="showArtist('Kanye West')">Kanye West</button>
+        <button class="custom-btn" onclick="showGenre('country')">Country</button>
+        <button class="custom-btn" onclick="showGenre('pop')">Pop</button>
+        <button class="custom-btn" onclick="showGenre('rock')">Rock</button>
+    </div>
+
+    <!-- Copy from Album - Bootstrap -->
+    <div class="album py-5 bg-body-tertiary">
+        <div id="genre-title-div">
+            <h2 id="artist-title"></h2>
+        </div>
+        <div class="container">
+            <div id="col" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3 justify-content-center">
+            </div>
+        </div>
+    </div>
+
+    <script src="./songs.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

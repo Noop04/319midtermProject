@@ -37,17 +37,38 @@ body {
   color: white;
 }
 .custom-btn {
-  background-color: #056706; /* Change button color */
+  background-color: #191919;
+  border-color: #056706;
   min-width: 150px;
   min-height: 150px;
-  color: white; /* Change text color */
-  padding: 150px 300px; /* Increase size */
   font-size: 1.5rem;
-  border: none; /* Remove default border */
-  border-radius: 5px; /* Add some border radius */
+  border-style: groove;
+  border-radius: 5px; 
+}
+
+.genre-buttons {
+  margin-bottom: 15px;
 }
 
 .custom-btn:hover {
-  background-color: #045e06; /* Darker shade on hover */
-  color: white; /* Ensure text color remains white on hover */
+  background-color: #045e06; 
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#genre-title-div {
+  margin: auto;
+  width: 69%;
+}
+
+h2 {
+  background-color: #191919;
+  text-align: center;
+  font-size: 1.5rem;
+  border-style: groove;
+  border-radius: 5px;
+  border-color: #056706;
 }

@@ -91,6 +91,7 @@
       "artist": "Lil Wayne",
       "album": "The Carter IV",
       "streams": "58,922,519",
+      "date": "2011",
       "url": "https://i.scdn.co/image/ab67616d0000b273e80b258c7e0b318202870953"
     },
     {
@@ -98,6 +99,7 @@
       "artist": "Lil Wayne",
       "album": "The Carter IV",
       "streams": "45,740,277",
+      "date": "2011",
       "url": "https://i.scdn.co/image/ab67616d0000b273e80b258c7e0b318202870953"
     },
     {
@@ -105,6 +107,7 @@
       "artist": "Lil Wayne",
       "album": "The Carter IV",
       "streams": "524,434,328",
+      "date": "2011",
       "url": "https://i.scdn.co/image/ab67616d0000b273e80b258c7e0b318202870953"
     },
     {
@@ -112,6 +115,7 @@
       "artist": "Lil Wayne",
       "album": "Tha Carter IV",
       "streams": "263,140,757",
+      "date": "2011",
       "url": "https://i.scdn.co/image/ab67616d0000b273e80b258c7e0b318202870953"
     },
     {
@@ -119,6 +123,7 @@
       "artist": "Kanye West",
       "album": "Graduation",
       "streams": "1,180,832,502",
+      "date": "2007",
       "url": "https://i.scdn.co/image/ab67616d0000b273675561f3defd1d5a551936a8"
     },
     {
@@ -126,6 +131,7 @@
       "artist": "Kanye West",
       "album": "Graduation",
       "streams": "465,493,679",
+      "date": "2007",
       "url": "https://i.scdn.co/image/ab67616d0000b273675561f3defd1d5a551936a8"
     },
     {
@@ -133,13 +139,15 @@
       "artist": "Kanye West",
       "album": "The College Dropout",
       "streams": "52,041,280",
+      "date": "2004",
       "url": "https://i.scdn.co/image/ab67616d0000b27325b055377757b3cdd6f26b78"
     },
     {
       "name": "Devil In A New Dress",
       "artist": "Kanye West",
-      "album": "My Beutiful Dark Twisted Fantasy",
+      "album": "My Beautiful Dark Twisted Fantasy",
       "streams": "496,692,164",
+      "date": "2010",
       "url": "https://i.scdn.co/image/ab67616d0000b273d9194aa18fa4c9362b47464f"
     },
     {
@@ -147,6 +155,7 @@
       "artist": "Kanye West",
       "album": "808s & Heartbreak",
       "streams": "1,449,999,579",
+      "date": "2008",
       "url": "https://i.scdn.co/image/ab67616d0000b273346d77e155d854735410ed18"
     },
     {
@@ -154,6 +163,7 @@
       "artist": "Lil Uzi Vert",
       "album": "Luv Is Rage 2 (Deluxe)",
       "streams": "1,101,356,997",
+      "date": "2017",
       "url": "https://i.scdn.co/image/ab67616d0000b2730d5a84e4e47399d2726c330c"
     },
     {
@@ -161,6 +171,7 @@
       "artist": "Lil Uzi Vert",
       "album": "Sanguine Paradise",
       "streams": "489,491,717",
+      "date": "2019",
       "url": "https://i.scdn.co/image/ab67616d00001e0234bf16d92ae11f8d3eadf295"
     },
     {
@@ -168,6 +179,7 @@
       "artist": "Luke Combs",
       "album": "This One's for You Too (Deluxe Edition)",
       "streams": "917,473,684",
+      "date": "2018",
       "url": "https://i.scdn.co/image/ab67616d0000b273ccba76fad1c624c09e72bc78"
     },
     {
@@ -175,6 +187,7 @@
       "artist": "Luke Combs",
       "album": "What You See Is What You Get",
       "streams": "626,416,072",
+      "date": "2019",
       "url": "https://i.scdn.co/image/ab67616d0000b273429d8ec28f865acf2a927c2d"
     },
     {
@@ -182,6 +195,7 @@
       "artist": "Chris Stapleton",
       "album": "Traveller",
       "streams": "1,051,932,385",
+      "date": "2015",
       "url": "https://i.scdn.co/image/ab67616d0000b273540fc1d083eac5bcff8dad21"
     },
     {
@@ -189,6 +203,7 @@
       "artist": "Chris Stapleton",
       "album": "Traveller",
       "streams": "345,232,076",
+      "date": "2015",
       "url": "https://i.scdn.co/image/ab67616d0000b273540fc1d083eac5bcff8dad21"
     },
     {
@@ -196,6 +211,7 @@
       "artist": "Carrie Underwood",
       "album": "Some Hearts",
       "streams": "650,357,649",
+      "date": "2006",
       "url": "https://i.scdn.co/image/ab67616d0000b273724bd326692d222c5906b0b0"
     },
     {
@@ -203,6 +219,7 @@
       "artist": "Carrie Underwood",
       "album": "Blown Away",
       "streams": "149,612,146",
+      "date": "2012",
       "url": "https://i.scdn.co/image/ab67616d0000b27324e1589fb3eab8ae8831f388"
     },
     {
@@ -210,6 +227,7 @@
       "artist": "Taylor Swift",
       "album": "1989",
       "streams": "1,926,989,289",
+      "date": "2014",
       "url": "https://i.scdn.co/image/ab67616d0000b2739abdf14e6058bd3903686148"
     },
     {
@@ -217,6 +235,7 @@
       "artist": "Taylor Swift",
       "album": "1989",
       "streams": "1,495,266,155",
+      "date": "2014",
       "url": "https://i.scdn.co/image/ab67616d0000b2739abdf14e6058bd3903686148"
     },
     {
@@ -224,6 +243,7 @@
       "artist": "Ariana Grande",
       "album": "thank u, next",
       "streams": "2,359,773,994",
+      "date": "2019",
       "url": "https://i.scdn.co/image/ab67616d0000b27356ac7b86e090f307e218e9c8"
     },
     {
@@ -231,6 +251,7 @@
       "artist": "Ariana Grande",
       "album": "Positions",
       "streams": "1,495,635,341",
+      "date": "2020",
       "url": "https://i.scdn.co/image/ab67616d0000b2735ef878a782c987d38d82b605"
     },
     {
@@ -238,6 +259,7 @@
       "artist": "Ed Sheeran",
       "album": "÷ (Deluxe)",
       "streams": "4,053,463,050",
+      "date": "2017",
       "url": "https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96"
     },
     {
@@ -245,6 +267,7 @@
       "artist": "Ed Sheeran",
       "album": "÷ (Deluxe)",
       "streams": "3,126,660,423",
+      "date": "2017",
       "url": "https://i.scdn.co/image/ab67616d0000b273ba5db46f4b838ef6027e6f96"
     },
     {
@@ -252,6 +275,7 @@
       "artist": "The Beatles",
       "album": "The Beatles",
       "streams": "506,441,739",
+      "date": "1968",
       "url": "https://i.scdn.co/image/ab67616d0000b2734ce8b4e42588bf18182a1ad2"
     },
     {
@@ -259,6 +283,7 @@
       "artist": "The Beatles",
       "album": "Abbey Road",
       "streams": "778,107,476",
+      "date": "1969",
       "url": "https://i.scdn.co/image/ab67616d0000b273dc30583ba717007b00cceb25"
     },
     {
@@ -266,6 +291,7 @@
       "artist": "Queen",
       "album": "A Night at the Opera",
       "streams": "2,606,355,258",
+      "date": "1975",
       "url": "https://i.scdn.co/image/ab67616d0000b2733025a441495664948b809537"
     },
     {
@@ -273,6 +299,7 @@
       "artist": "Queen",
       "album": "The Game",
       "streams": "1,991,465,463",
+      "date": "1980",
       "url": "https://i.scdn.co/image/ab67616d0000b273cbb67d806b0ca54b3d474e03"
     },
     {
@@ -280,6 +307,7 @@
       "artist": "Led Zeppelin",
       "album": "Led Zeppelin IV",
       "streams": "1,026,644,001",
+      "date": "1971",
       "url": "https://i.scdn.co/image/ab67616d0000b2734509204d0860cc0cc67e83dc"
     },
     {
@@ -287,6 +315,7 @@
       "artist": "Led Zeppelin",
       "album": "Led Zeppelin II",
       "streams": "638,655,882",
+      "date": "1969",
       "url": "https://i.scdn.co/image/ab67616d0000b273f396ea414b735ef23e2ed1a9"
     }
   ]

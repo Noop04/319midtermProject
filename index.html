@@ -46,16 +46,22 @@
         </div>
     </nav>
 
+    <h1>View popular artists!</h1>
+    <h1>Try out different genres!</h1>
+
     <!-- Genre Buttons -->
     <div class="genre-buttons text-center">
-        <button class="btn custom-btn" onclick="showGenre('rap')">Rap</button>
-        <button class="btn custom-btn" onclick="showGenre('country')">Country</button>
-        <button class="btn custom-btn" onclick="showGenre('pop')">Pop</button>
-        <button class="btn custom-btn" onclick="showGenre('rock')">Rock</button>
+        <button class="custom-btn" onclick="showGenre('rap')">Rap</button>
+        <button class="custom-btn" onclick="showGenre('country')">Country</button>
+        <button class="custom-btn" onclick="showGenre('pop')">Pop</button>
+        <button class="custom-btn" onclick="showGenre('rock')">Rock</button>
     </div>
 
     <!-- Copy from Album - Bootstrap -->
     <div class="album py-5 bg-body-tertiary">
+        <div id="genre-title-div">
+            <h2 id="genre-title"></h2>
+        </div>
         <div class="container">
             <div id="col" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3 justify-content-center">
             </div>
