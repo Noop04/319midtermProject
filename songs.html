@@ -33,9 +33,6 @@
                         <a class="nav-link" href="./index.html">Genres</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./artists.html">Artists</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Songs</a>
                     </li>
                     <li class="nav-item">
@@ -45,20 +42,41 @@
             </div>
         </div>
     </nav>
-    <h1>View popular artists!</h1>
-    <h1>Try out different genres!</h1>
+    <h1>View your favorite songs from your favorite artists</h1>
+    <h1>Or, view all artists!</h1>
 
-    <!-- Genre Buttons -->
-    <div class="artist-buttons text-center">
-        <button class="custom-btn" onclick="showArtist('Kanye West')">Kanye West</button>
-        <button class="custom-btn" onclick="showGenre('country')">Country</button>
-        <button class="custom-btn" onclick="showGenre('pop')">Pop</button>
-        <button class="custom-btn" onclick="showGenre('rock')">Rock</button>
+    <div id="sort-div" class="d-flex align-items-center">
+        <div class="dropdown me-2">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Artist
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#" onclick="showArtist('All Artists')">All Artists</a></li>
+                <li><a class="dropdown-item" href="#" onclick="showArtist('Lil Wayne')">Lil Wayne</a></li>
+                <li><a class="dropdown-item" href="#" onclick="showArtist('Kanye West')">Kanye West</a></li>
+                <li><a class="dropdown-item" href="#" onclick="showArtist('Lil Uzi Vert')">Lil Uzi Vert</a></li>
+                <li><a class="dropdown-item" href="#" onclick="showArtist('Luke Combs')">Luke Combs</a></li>
+                <li><a class="dropdown-item" href="#" onclick="showArtist('Chris Stapleton')">Chris Stapleton</a></li>
+                <li><a class="dropdown-item" href="#" onclick="showArtist('Carrie Underwood')">Carrie Underwood</a></li>
+                <li><a class="dropdown-item" href="#" onclick="showArtist('Taylor Swift')">Taylor Swift</a></li>
+                <li><a class="dropdown-item" href="#" onclick="showArtist('Ariana Grande')">Ariana Grande</a></li>
+                <li><a class="dropdown-item" href="#" onclick="showArtist('Ed Sheeran')">Ed Sheeran</a></li>
+                <li><a class="dropdown-item" href="#" onclick="showArtist('The Beatles')">The Beatles</a></li>
+                <li><a class="dropdown-item" href="#" onclick="showArtist('Queen')">Queen</a></li>
+                <li><a class="dropdown-item" href="#" onclick="showArtist('Led Zeppelin')">Led Zeppelin</a></li>
+            </ul>
+        </div>
+        <div class="sort-buttons text-center">
+            <button class="btn btn-primary me-2" onclick="sortSongs(1)">Sort by Streams</button>
+            <button class="btn btn-primary" onclick="sortSongs(2)">Sort by Date</button>
+        </div>
     </div>
+
 
     <!-- Copy from Album - Bootstrap -->
     <div class="album py-5 bg-body-tertiary">
-        <div id="genre-title-div">
+        <div id="artist-title-div">
             <h2 id="artist-title"></h2>
         </div>
         <div class="container">
@@ -70,9 +88,7 @@
     <script src="./songs.js"></script>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
