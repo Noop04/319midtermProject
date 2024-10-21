@@ -64,6 +64,11 @@ h1 {
   width: 69%;
 }
 
+#artist-title-div {
+  margin: auto;
+  width: 100%;
+}
+
 h2 {
   background-color: #191919;
   text-align: center;
@@ -71,4 +76,55 @@ h2 {
   border-style: groove;
   border-radius: 5px;
   border-color: #056706;
+}
+
+.dropdown {
+  width: 500px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.dropdown > .dropdown-toggle {
+  width: 500px;
+  height: 75px;
+  text-align: center;
+  margin: auto;
+  background-color: #191919;
+  border-color: #056706;
+  font-size: 30px;
+}
+
+.dropdown > .dropdown-menu {
+  width: 500px;
+  text-align: center;
+  margin: auto;
+  background-color: #191919;
+  color: #191919;
+  font-size: 30px;
+}
+
+.dropdown-item {
+  width: 500px;
+  text-align: center;
+  margin: auto;
+  background-color: #191919;
+}
+
+.d-flex {
+  width: 1000px;
+  margin: auto;
+}
+
+.btn-primary {
+  background-color: #191919 !important;
+  border-color: #056706 !important;
+  min-width: 100px;
+  min-height: 50px;
+  font-size: 1.5rem;
+  border-style: groove;
+  border-radius: 5px; 
+}
+
+.btn-primary:hover {
+  background-color: #045e06 !important; 
 }
