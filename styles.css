@@ -8,6 +8,7 @@
   border-radius: 10px;
   border: 2px solid #056706;
 }
+
 /* Navbar links */
 .navbar a {
   color: #f2f2f2;
@@ -15,6 +16,7 @@
   padding: 10px;
   text-decoration: none;
 }
+
 /* Change color on hover */
 .navbar a:hover {
   background-color: #067908;
@@ -36,6 +38,7 @@ body {
   background-color: #191919;
   color: white;
 }
+
 .custom-btn {
   background-color: #191919;
   border-color: #056706;
@@ -43,7 +46,7 @@ body {
   min-height: 150px;
   font-size: 1.5rem;
   border-style: groove;
-  border-radius: 5px; 
+  border-radius: 5px;
 }
 
 .genre-buttons {
@@ -51,7 +54,7 @@ body {
 }
 
 .custom-btn:hover {
-  background-color: #045e06; 
+  background-color: #045e06;
 }
 
 h1 {
@@ -71,4 +74,28 @@ h2 {
   border-style: groove;
   border-radius: 5px;
   border-color: #056706;
+}
+
+
+
+
+
+.glow {
+
+  color: #056706;
+  text-align: center;
+  font:sans-serif;
+  text-transform: uppercase;
+
+ /* Text Shine Animation */
+ background: linear-gradient(90deg, #056706, #fff, #056706); 
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+
+
+}
+
+/* Hover Effect: Scale text on hover */
+.glow:hover {
+ transform: scale(1.1); 
 }
